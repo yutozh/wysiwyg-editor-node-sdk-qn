@@ -1,17 +1,18 @@
 {
-  "name": "wysiwyg-editor-node-sdk",
-  "version": "2.3.4",
-  "author": "Froala Labs",
-  "description": "Node.js SDK for Froala Editor",
+  "name": "wysiwyg-editor-node-sdk-qn",
+  "version": "0.1.0",
+  "author": "Zhou YT && Froala Labs",
+  "description": "Node.js SDK for Froala Editor with Qiniu Cloud",
   "main": "lib/froalaEditor.js",
   "scripts": {
     "start": "node ./examples/server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/froala/wysiwyg-editor-node-sdk.git"
+    "url": "https://github.com/zyt4321/wysiwyg-editor-node-sdk-qn.git"
   },
   "keywords": [
+    "七牛",
     "froala",
     "editor",
     "node.js",
@@ -19,7 +20,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/froala/wysiwyg-editor-node-sdk/issues"
+    "url": "https://github.com/zyt4321/wysiwyg-editor-node-sdk-qn/issues"
   },
   "homepage": "https://www.froala.com/wysiwyg-editor",
   "dependencies": {
