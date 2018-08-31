@@ -37,7 +37,7 @@ app.post('/upload_image_validation', function (req, res) {
     secretKey: 'Your Secretkey', // SK
     bucket: 'Bucket Name', // 存储空间名称
     zone: 'Zone_z0', // 机房位置 华东Zone_z0 华北Zone_z1 华南Zone_z2 北美Zone_na0
-    domain: 'Your domain', // 测试域名或cdn加速域名
+    domain: 'Your domain', // 测试域名或cdn加速域名（末尾不加/）
     fieldname: 'myImage',
     validation: function(filePath, mimetype, callback) {
     
