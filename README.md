@@ -59,7 +59,7 @@ app.post('/upload_image_validation', function (req, res) {
     }
   }
 
-  FroalaEditor.Image.upload(req, '/uploads/', options, function(err, data) {
+  FroalaEditor.Image.uploadQn(req, '/uploads/', options, function(err, data) {
 
     if (err) {
       return res.send(JSON.stringify(err));
